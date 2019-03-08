@@ -1,3 +1,3 @@
-= Inform6 Projecte
+= Inform6 Projects
 
 Learning Inform6, in the future interactive fiction written in it will sit here -- if they get written it is.
