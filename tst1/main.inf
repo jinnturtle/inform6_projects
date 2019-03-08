@@ -1,0 +1,24 @@
+Constant Story "^Beginning the Inform6 Journey^";
+Constant Headline "Where the Epic Story of Adventure Told via Inform6 Begins^
+        Copyright (c) 2017 by Giles E. Nedzinskas";
+
+Include "Parser";
+Include "VerbLib";
+Include "Grammar";
+
+Object The_writing_room "~The Writing Room~"
+    with description
+        "This is where entire universes are born."
+    has light;
+
+Object -> book_jnanin "book of Jnanin"
+    with name 'book' 'Jnanin',
+         initial
+            "A strange book sits on a lectern",
+         description
+            "The hard cover is shrouded in rough green textile, and inprinted
+            golden letters say ~Jnanin~";
+
+[ Initialise;
+    location = The_writing_room;
+];
