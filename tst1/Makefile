@@ -4,3 +4,6 @@ SRC = main.inf
 
 all: $(OUTP)
 	inform -G $(SRC) $(OUTP)
+
+clean:
+	@rm -rv $(OUTP)
