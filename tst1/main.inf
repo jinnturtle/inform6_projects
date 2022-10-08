@@ -12,7 +12,7 @@ Object The_writing_room "~The Writing Room~"
     has light;
 
 Object -> book_jnanin "book of Jnanin"
-    with name 'book' 'Jnanin',
+    with name 'book' 'Jnanin' 'strange book',
          initial
             "A strange book sits on a lectern",
          description
